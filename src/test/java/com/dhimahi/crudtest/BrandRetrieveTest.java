@@ -10,7 +10,7 @@ import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
 
 
-public class RetrieveBrandTest extends SetUp {
+public class BrandRetrieveTest extends SetUp {
     public String getExistingID(){
         Response searchResponseID = given()
                 .when()
